@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên hệ</title>
+    <style type="text/css">
+        button {
+            display:block;
+            background-color:green;
+            width:90px;
+            height:30px;
+        }
+        textarea{
+            width:290px;
+            height:300px;
+        }
+        input, textarea {
+            display: block;
+            margin-bottom: 10px;
+        }
+        form {
+            width: 300px;
+            margin: 0 auto;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Tạo form liên hệ -->
+    <form name="contact">
+        <h1>Liên hệ</h1>
+        <label for="name">Họ và tên</label>
+        <input type="text" name="name" id="name" placeholder="Nhập họ và tên">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Nhập email">
+        <label for="phone">Số điện thoại</label>
+        <input type="tel" name="phone" id="phone" placeholder="Nhập số điện thoại">
+        <label for="message">Nội dung</label>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Nhập nội dung"></textarea>
+        <button type="submit">Gửi</button>
+    </form>
+</body>
+</html>
