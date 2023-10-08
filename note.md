@@ -7,3 +7,5 @@
 - git add .
 lưu laị tất cả các file
 - git reset : không lưu file, lấy lại fil cũ
+- git commit -m 'start commit'
+Ghi chính thức các file và ghi chú thời điểm chỉnh sửa code
